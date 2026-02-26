@@ -1,0 +1,159 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPOm5sUVNPTIzVSM/8DMjMJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/iaayush04/-Section-46-ADSA/blob/main/Web%20Technology%20experiment%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 669
+        },
+        "id": "hcKyRqlzUwDf",
+        "outputId": "3ee4686a-5a74-4f15-8294-3f2d9da24752"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "\n",
+              "<!DOCTYPE html>\n",
+              "<html>\n",
+              "<head>\n",
+              "    <title>My CV</title>\n",
+              "</head>\n",
+              "<body>\n",
+              "\n",
+              "    <h1 align=\"center\">Aayush Kateria</h1>\n",
+              "    <p align=\"center\">Email: ayushkayushkatheriya2022@gmail.com | Phone: 6398388590</p>\n",
+              "    <hr>\n",
+              "\n",
+              "    <h2>Career Objective</h2>\n",
+              "    <p>To obtain a challenging position in a reputed organization where I can enhance my technical skills and contribute to company growth.</p>\n",
+              "\n",
+              "    <h2>Educational Qualifications</h2>\n",
+              "    <ul>\n",
+              "        <li>B.Tech in Computer Science (AI & ML)</li>\n",
+              "        <li>12th - 75.5%(UP BOARD) </li>\n",
+              "        <li>10th - 84%(UP BOARD) </li>\n",
+              "    </ul>\n",
+              "\n",
+              "    <h2>Technical Skills</h2>\n",
+              "    <ul>\n",
+              "        <li>HTML, CSS, Java, ASP.NET</li>\n",
+              "        <li>Python</li>\n",
+              "        <li>Machine Learning Basics</li>\n",
+              "    </ul>\n",
+              "\n",
+              "    <h2>Projects</h2>\n",
+              "    <ul>\n",
+              "        <li>Face Recognition System</li>\n",
+              "        <li>Student Management System</li>\n",
+              "        <li>Lung Cancer Detection</li>\n",
+              "    </ul>\n",
+              "\n",
+              "    <h2>Hobbies</h2>\n",
+              "    <ul\n",
+              "        <li>Learning AI Tools</li>\n",
+              "        <li>Gym Workout</li>\n",
+              "        <li>Bike Riding</li>\n",
+              "    </ul>\n",
+              "\n",
+              "    <h2>Declaration</h2>\n",
+              "    <p>I hereby declare that the above information is true to the best of my knowledge.</p>\n",
+              "\n",
+              "</body>\n",
+              "</html>\n"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ],
+      "source": [
+        "from IPython.display import HTML\n",
+        "\n",
+        "html_content = '''\n",
+        "<!DOCTYPE html>\n",
+        "<html>\n",
+        "<head>\n",
+        "    <title>My CV</title>\n",
+        "</head>\n",
+        "<body>\n",
+        "\n",
+        "    <h1 align=\"center\">Aayush Kateria</h1>\n",
+        "    <p align=\"center\">Email: ayushkayushkatheriya2022@gmail.com | Phone: 6398388590</p>\n",
+        "    <hr>\n",
+        "\n",
+        "    <h2>Career Objective</h2>\n",
+        "    <p>To obtain a challenging position in a reputed organization where I can enhance my technical skills and contribute to company growth.</p>\n",
+        "\n",
+        "    <h2>Educational Qualifications</h2>\n",
+        "    <ul>\n",
+        "        <li>B.Tech in Computer Science (AI & ML)</li>\n",
+        "        <li>12th - 75.5%(UP BOARD) </li>\n",
+        "        <li>10th - 84%(UP BOARD) </li>\n",
+        "    </ul>\n",
+        "\n",
+        "    <h2>Technical Skills</h2>\n",
+        "    <ul>\n",
+        "        <li>HTML, CSS, Java, ASP.NET</li>\n",
+        "        <li>Python</li>\n",
+        "        <li>Machine Learning Basics</li>\n",
+        "    </ul>\n",
+        "\n",
+        "    <h2>Projects</h2>\n",
+        "    <ul>\n",
+        "        <li>Face Recognition System</li>\n",
+        "        <li>Student Management System</li>\n",
+        "        <li>Lung Cancer Detection</li>\n",
+        "    </ul>\n",
+        "\n",
+        "    <h2>Hobbies</h2>\n",
+        "    <ul\n",
+        "        <li>Learning AI Tools</li>\n",
+        "        <li>Gym Workout</li>\n",
+        "        <li>Bike Riding</li>\n",
+        "    </ul>\n",
+        "\n",
+        "    <h2>Declaration</h2>\n",
+        "    <p>I hereby declare that the above information is true to the best of my knowledge.</p>\n",
+        "\n",
+        "</body>\n",
+        "</html>\n",
+        "'''\n",
+        "\n",
+        "HTML(html_content)"
+      ]
+    }
+  ]
+}
